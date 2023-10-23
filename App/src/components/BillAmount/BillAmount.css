@@ -1,0 +1,21 @@
+.billamount {
+  display: flex;
+  flex-direction: column;
+  padding: 0 2rem;
+}
+
+.billamount p {
+  font-size: 1.5rem;
+  font-weight: bold;
+  margin: 0;
+}
+
+#billamount {
+  color: #3cbdb0;
+  font-weight: bold;
+  background-color: #f3f8fb;
+  border-color: #3cbdb0;
+  border-radius: 0.5rem;
+  font-size: 1.5rem;
+  text-align: end;
+}

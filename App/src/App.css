@@ -1,0 +1,50 @@
+body {
+  display: flex;
+}
+
+#root {
+  font-family: 'Source Code Pro', monospace;
+  width: 100%;
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-template-rows: auto;
+  gap: 1rem 1rem;
+}
+
+@media only screen and (min-width: 750px) {
+  body {
+    height: 100vh;
+    justify-content: center;
+    align-items: center;
+  }
+  #root {
+    width: 75%;
+    justify-self: center;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: repeat(3, 1fr);
+  }
+  .billamount {
+    grid-column-start: 1;
+    grid-column-end: 2;
+    grid-row-start: 1;
+    grid-row-end: 2;
+  }
+  .tippercentages {
+    grid-column-start: 1;
+    grid-column-end: 2;
+    grid-row-start: 2;
+    grid-row-end: 3;
+  }
+  .numberofpeople {
+    grid-column-start: 1;
+    grid-column-end: 2;
+    grid-row-start: 3;
+    grid-row-end: 4;
+  }
+  .displaytip {
+    grid-column-start: 2;
+    grid-column-end: 3;
+    grid-row-start: 1;
+    grid-row-end: 4;
+  }
+}

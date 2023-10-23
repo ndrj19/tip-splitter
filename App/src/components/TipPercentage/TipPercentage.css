@@ -1,0 +1,28 @@
+.tippercentages {
+  padding: 0 2rem;
+}
+
+.tippercentages p {
+  font-size: 1.5rem;
+  font-weight: bold;
+  margin: 0;
+}
+
+.tipbtns {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-template-rows: 1fr 1fr;
+  gap: 0.5rem;
+}
+
+.tipbtn {
+  background-color: #00474b;
+  color: #bfedf3;
+  font-size: 1.5rem;
+  font-weight: bold;
+  border-radius: 0.5rem;
+  border: 1px solid transparent;
+  cursor: pointer;
+  padding: 0.25rem;
+  width: 100%;
+}
