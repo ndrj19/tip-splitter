@@ -1,7 +1,105 @@
 .displaytip {
   padding: 0 2rem;
+  width: 75%;
+  display: grid;
+  justify-self: center;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: 1fr 1fr 1fr;
+  background-color: #00474b;
+  border-radius: 1rem;
 }
 
 .displaytip p {
   margin: 0;
+}
+
+.tipperperson {
+  grid-column-start: 1;
+  grid-column-end: 2;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: center;
+  padding: 1rem 0;
+  margin-left: 0 1.5rem;
+}
+
+.tipperperson p {
+  margin: 0;
+  color: #bfedf3;
+  font-weight: bolder;
+  font-size: 1.25rem;
+}
+
+.tipperperson .per {
+  color: #417e83;
+  font-size: 1.25rem;
+}
+
+.tipamount {
+  grid-column-start: 2;
+  grid-column-end: 3;
+  justify-self: end;
+  align-self: center;
+  color: #3cbdb0;
+  font-size: 3rem;
+  margin: 0 1.5rem;
+  padding: 1rem;
+}
+
+.totalperperson {
+  grid-column-start: 1;
+  grid-column-end: 2;
+  grid-row-start: 2;
+  grid-row-end: 3;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: center;
+  padding: 1rem 0;
+  margin: 0 1.5rem;
+}
+
+.totalperperson p {
+  margin: 0;
+  color: #bfedf3;
+  font-weight: bolder;
+  font-size: 1.5rem;
+}
+
+.totalperperson .per {
+  color: #417e83;
+  font-size: 1.25rem;
+}
+
+.totalamount {
+  grid-column-start: 2;
+  grid-column-end: 3;
+  grid-row-start: 2;
+  grid-row-end: 3;
+  justify-self: end;
+  align-self: center;
+  color: #3cbdb0;
+  font-size: 3rem;
+  margin: 0 1.5rem;
+  padding: 1rem;
+}
+
+.reset {
+  grid-column-start: 1;
+  grid-column-end: 3;
+  grid-row-start: 3;
+  grid-row-end: 4;
+  justify-self: center;
+  align-self: flex-end;
+  width: 80%;
+  background-color: #9fe8df;
+  color: #00474b;
+  font-size: 1.5rem;
+  font-weight: bolder;
+  margin-bottom: 2rem;
+  border-radius: 0.5rem;
+  border: 1px solid transparent;
+  cursor: pointer;
+  padding: 0.5rem;
 }

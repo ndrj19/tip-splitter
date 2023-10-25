@@ -1,5 +1,6 @@
 body {
   display: flex;
+  background-color: #6f6f6f;
 }
 
 #root {
@@ -9,6 +10,9 @@ body {
   grid-template-columns: 1fr;
   grid-template-rows: auto;
   gap: 1rem 1rem;
+  padding: 4rem;
+  border-radius: 1rem;
+  background-color: #ffffff;
 }
 
 @media only screen and (min-width: 750px) {
