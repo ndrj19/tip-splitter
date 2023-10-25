@@ -1,6 +1,6 @@
 .displaytip {
   padding: 0 2rem;
-  width: 75%;
+  width: auto;
   display: grid;
   justify-self: center;
   grid-template-columns: 1fr 1fr;
@@ -28,7 +28,7 @@
   margin: 0;
   color: #bfedf3;
   font-weight: bolder;
-  font-size: 1.25rem;
+  font-size: 1.5rem;
 }
 
 .tipperperson .per {
