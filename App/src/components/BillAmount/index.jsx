@@ -10,7 +10,8 @@ const BillAmount = () => {
       <div className="billamount">
         <p>Bill</p>
         <input
-          type="text"
+          type="number"
+          min="0"
           id="billamount"
           value={billAmount}
           placeholder="£0.00"

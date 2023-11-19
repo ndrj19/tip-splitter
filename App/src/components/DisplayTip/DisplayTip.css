@@ -1,5 +1,5 @@
 .displaytip {
-  padding: 0 2rem;
+  /* padding: 0 2rem; */
   width: auto;
   display: grid;
   justify-self: center;
@@ -21,7 +21,7 @@
   align-items: flex-start;
   justify-content: center;
   padding: 1rem 0;
-  margin-left: 0 1.5rem;
+  margin: 0 1.5rem;
 }
 
 .tipperperson p {
