@@ -10,7 +10,8 @@ const NumberOfPeople = (props) => {
       <div className="numberofpeople">
         <p>Number of People</p>
         <input
-          type="text"
+          type="number"
+          min="0"
           id="numberofpeople"
           value={numberOfPeople}
           placeholder="0"
